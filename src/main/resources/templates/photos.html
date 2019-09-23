@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div class="menu">
+        <ul class="navbar">
+            <li class="navlist"><a class="nav" href="/index">Home</a></li>
+            <li class="dropdown"><a class="nav" href="javascript:void(0)">Recipes</a>
+                <div class="dropdown-content">
+                    <a href="/crabcake">Crabcake</a>
+                    <a href="/gumbo">Gumbo</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h1 class="navheading">My Recipe Book</h1>
+    <div class="container1">
+        <div class="gallery">
+            <a target="_blank" href="/crabcake">
+                <img src="/img/crabcake.jfif" alt="Crabcake" width="400" height="400">
+            </a>
+            <div class="desc">Tasty Crabcakes</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="/gumbo">
+                <img src="/img/gumbo.jfif" alt="gumbo" width="400" height="400">
+            </a>
+            <div class="desc">Delicious Cajun-Style Gumbo</div>
+        </div>
+    </div>
+</body>
+</html>
