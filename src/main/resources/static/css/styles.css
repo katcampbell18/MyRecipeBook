@@ -3,8 +3,12 @@
     padding: 0;
 }
 .main-container{
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F564x%2Ffd%2F9b%2F42%2Ffd9b42ef015469ee96789264493b6d14.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F646477721484158043%2F&docid=Mm7lX8Xs_27ssM&tbnid=Ph-BAvzmsdLzKM%3A&vet=10ahUKEwir-MaD4efkAhVxdt8KHf8rDlYQMwhKKAEwAQ..i&w=220&h=189&bih=588&biw=1128&q=snoopy%20cooking%20images&ved=0ahUKEwir-MaD4efkAhVxdt8KHf8rDlYQMwhKKAEwAQ&iact=mrc&uact=8");
-    background-size:  cover;
+    color: aquamarine;
+}
+img[main]{
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
 }
 ul [navbar] {
     list-style-type: none;
